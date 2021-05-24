@@ -12,5 +12,7 @@ namespace API.Entities
         public string Email { get; set; }
         public DateTime Birthday { get; set; }
         public ICollection<Family> Families { get; set; }
+        public byte[] PasswordHash { get; set; }
+        public byte[] PasswordSalt { get; set; }
     }
 }

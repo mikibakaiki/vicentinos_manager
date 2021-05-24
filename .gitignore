@@ -1,6 +1,11 @@
+ssl
 *.db
 *.db-*
 App/API/Data/Migrations
+*/.DS_Store
+StudentAssets/
+StudentAssets.zip
+.DS_Store
 # Created by https://www.toptal.com/developers/gitignore/api/angular,csharp
 # Edit at https://www.toptal.com/developers/gitignore?templates=angular,csharp
 
